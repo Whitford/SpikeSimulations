@@ -1,5 +1,7 @@
 This directory contains the inputs to generate simulations of pre-to-postfusion transitions published in Dodero-Rojas et al, eLife, 2021. For questions about the model (SMOG model) and software (SMOG 2 and OpenSMOG), more information is available at smog-server.org
 
+In this study, we used an unofficial customized version of Gromacs, which is provided here. However, we have since ported the models to OpenSMOG/OpenMM and the new input decks will be made available soon.
+
 example.slurm: Simulation submission sample script
 
 resub.slurm: Follow up simulation submission sample script

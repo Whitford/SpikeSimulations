@@ -1,0 +1,21 @@
+This directory contains the inputs to generate simulations of pre-to-postfusion transitions published in Dodero-Rojas et al, eLife, 2021. For questions about the model (SMOG model) and software (SMOG 2 and OpenSMOG), more information is available at smog-server.org
+
+example.slurm: Simulation submission sample script
+
+resub.slurm: Follow up simulation submission sample script
+
+gromacs_flat_GR: Modified version of Gromacs including the flat bottom potential implemented in the Dodero-Rojas et al, eLife, 2021 simulations
+
+base.mdp: Production MDP Gromacs setting file
+ 
+index.ndx: Index of relevant groups of the simulated system
+
+moveable_host_membrane.gro: Input structure with a z-position tag at the FP used to set up the virtual host membrane potential
+
+postfusion_with_glycans_pre_TM.top: Input topology file
+
+prefusion_with_glycans_bb.gro: Initial structure of the Spike
+
+res.itp: Input file related to position restraints (used for the virtual viral and host membrane)
+
+steep.mdp: Energy minimization MDP Gromacs settings file 

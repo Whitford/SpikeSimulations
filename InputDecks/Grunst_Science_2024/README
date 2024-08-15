@@ -1,0 +1,20 @@
+This directory contains the inputs to generate simulations of pre-to-postfusion transitions with and without CV3-25 AB in the presence of force. For questions about the model (SMOG model) and software (SMOG 2 and OpenSMOG), more information is available at smog-server.org
+
+sim_pull_withCV3.py: Simulation script for the pre-to-post transition with an applied force
+force and CV3-25 Ab present.
+    The following packages are required: OpenSMOG, OpenMM, mdtraj, numpy, and sys.
+    To run the simulation:
+        python sim_pull_withCV3.py <ID> <Force> 
+    <ID> is an arbitrary integer that you can assign to keep track of your runs.
+    <Force> is the applied force, in units of pN
+
+sim_pull_withoutCV3.py: Simulation script of the pre-to-post transition with force.
+    The following packages are required: OpenSMOG, OpenMM, mdtraj, numpy, and sys.
+    To run the simulation:
+        python sim_pull_withoutCV3.py <ID> <Force>
+    <ID> is an arbitrary integer that you can assign to keep track of your runs.
+    <Force> is the applied force, in units of pN
+
+sim_with_CV3.*: Input files for simulations with CV3-25 and pulling force
+
+sim_without_CV3.*: Input files for simulations without CV3-25 and with pulling force
